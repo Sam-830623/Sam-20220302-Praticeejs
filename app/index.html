@@ -1,0 +1,34 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<h1>
+  這頁是首頁!!!!!
+</h1>
+
+<div class="box"></div>
+
+
+<!-- ejs重點整理 -->
+<!-- 如果要新增html在app那邊新增即可
+     不要去動到dist的內容!!!!!!!
+     只要放圖片css js都放到app的assets裡面的這些檔案裡 dist就會自動產生
+     如沒顯示效果 先ctrl+c中斷終端機 再打gulp就會顯示資料
+
+     ---
+    title: 首頁
+    layout: ./app/layout.ejs
+    engine: ejs
+    current: index
+    ---
+    改title跟current為當頁的資料
+
+    
+    gulpfile.js裡的envOptions.js跟index.js是老師已寫好的前端環境
+    如果要透過gulp github上傳資料就需透過這個
+
+
+-->
